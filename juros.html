@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cálculo de Juros Simples</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/juros.css">
+</head>
+<body>
+
+<div class="container mt-5">
+    <div class="calculator p-4">
+        <h2 class="text-center">Cálculo de Juros Simples</h2>
+        <input type="number" class="form-control" id="principal" placeholder="Capital (R$)">
+        <input type="number" class="form-control" id="rate" placeholder="Taxa de juros (%)">
+        <input type="number" class="form-control" id="time" placeholder="Tempo (anos)">
+        <button class="btn btn-primary mt-2" onclick="calculateInterest()">Calcular Juros</button>
+        <div class="result mt-3" id="interestResult"></div>
+        <a href="index.html" class="btn btn-secondary mt-3">Voltar</a>
+    </div>
+</div>
+
+<script src="./js/juros.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
